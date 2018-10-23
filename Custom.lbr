@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1663,8 +1663,8 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <wire x1="3.429" y1="-1.27" x2="3.683" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-1.016" x2="-3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="1.016" x2="-3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
 <text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -9243,8 +9243,8 @@ type 0204, grid 5 mm</description>
 <wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
 <text x="-2.0066" y="1.1684" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
@@ -9271,8 +9271,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -9429,8 +9429,8 @@ type 0207, grid 7.5 mm</description>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
 <text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
@@ -16059,31 +16059,31 @@ Source: http://www.3m.com/interconnects * Drawing: TS-1069-01</description>
 <wire x1="19.05" y1="-17.526" x2="-19.05" y2="-17.526" width="0.1524" layer="21"/>
 <circle x="23.5204" y="0" radius="1.651" width="0.1524" layer="21"/>
 <circle x="-23.5204" y="0" radius="1.651" width="0.1524" layer="21"/>
-<pad name="13" x="16.5608" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="12" x="13.7922" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="11" x="11.049" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="10" x="8.2804" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="13" x="16.5608" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="12" x="13.7922" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="11" x="11.049" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="10" x="8.2804" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
 <pad name="9" x="5.5118" y="1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="8" x="2.7686" y="1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="7" x="0" y="1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="6" x="-2.7686" y="1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
-<pad name="5" x="-5.5118" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-8.2804" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-11.049" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-13.7922" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="1" x="-16.5608" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="25" x="15.1892" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="24" x="12.4206" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="23" x="9.652" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="-5.5118" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="4" x="-8.2804" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="3" x="-11.049" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="2" x="-13.7922" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="1" x="-16.5608" y="1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="25" x="15.1892" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="24" x="12.4206" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="23" x="9.652" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
 <pad name="22" x="6.9088" y="-1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="21" x="4.1402" y="-1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="20" x="1.3716" y="-1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="19" x="-1.3716" y="-1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
 <pad name="18" x="-4.1402" y="-1.27" drill="0.799846875" diameter="1.5748" shape="octagon"/>
-<pad name="17" x="-6.9088" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="16" x="-9.652" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="15" x="-12.4206" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="14" x="-15.1892" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="17" x="-6.9088" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="16" x="-9.652" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="15" x="-12.4206" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
+<pad name="14" x="-15.1892" y="-1.27" drill="0.7874" diameter="1.5748" shape="octagon"/>
 <pad name="G1" x="-23.5204" y="0" drill="3.302" diameter="5.08"/>
 <pad name="G2" x="23.5204" y="0" drill="3.302" diameter="5.08"/>
 <text x="-26.416" y="4.445" size="1.778" layer="25" ratio="10">&gt;NAME</text>
@@ -20549,8 +20549,8 @@ Mask on one side for Kit soldering
 <pad name="6" x="1.27" y="1.27" drill="1.016" diameter="1.8288" shape="octagon"/>
 <pad name="8" x="3.81" y="1.27" drill="1.016" diameter="1.8288" shape="octagon"/>
 <text x="-4.318" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="-7.62" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="9.144" y="-21.59" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.509" y="-21.59" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <text x="5.715" y="1.016" size="1.27" layer="21" ratio="10">8</text>
 <rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
 <rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
@@ -28830,7 +28830,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4"/>
 <connect gate="G$1" pin="ID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
@@ -32568,7 +32568,7 @@ Source: avr.lbr</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP8266_BK_8CON" prefix="SV">
+<deviceset name="ESP8266_BK_8CON" prefix="SV" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP8266_BK_SYMB" x="0" y="0"/>
